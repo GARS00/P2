@@ -1,0 +1,37 @@
+#second {
+    display: flex;
+}
+
+#second img {
+    width: 40%;
+    margin: 0 5vw;
+}
+
+#description {
+    width: 50%;
+    list-style-position: inside;
+}
+
+#description h5 {
+    font-size: xx-large;
+    padding: 1% 10% 1% 0;
+
+    
+}
+
+#description p {
+    padding: 1% 14% 1% 0;
+}
+
+#lightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4em;
+    background-color: rgb(255, 75, 109);
+    width: 18em;
+    height: 4.7em;
+    font-size: 0.5em;
+    padding: 0.5em 1em;
+    color: white;
+}

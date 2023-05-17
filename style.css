@@ -2,7 +2,6 @@
     padding: 0%;
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
 }
 
 header {
@@ -11,6 +10,10 @@ header {
     align-items: center;
     width: 100vw;
     height: 10vh ;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    box-shadow: 1px 1px 10px #aeaeae;
 }
 
 #logo {
@@ -21,9 +24,10 @@ header {
 nav {
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
     justify-content: right;
     font-size: 2.4vh;
+    margin-right: 0;
 }
 
 .leftRigth {
@@ -39,14 +43,14 @@ nav {
 #download {
     padding: 0.3% 3%;
     border-style: solid;
-    border-width: 3.5px;
-    border-radius: 20px;
+    border-width: 0.2em;
+    border-radius: 4em;
     border-color: rgb(255, 76, 100);
     color:rgb(255, 76, 100);
 }
 
 #first {
-    margin: 10vh 7vw 10vh;
+    margin: 20vh 0;
 }
 
 #title {
@@ -79,12 +83,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 4em;
     background-color: rgb(255, 75, 109);
-    width: 12vw;
-    height: 5vh;
+    width: 18em;
+    height: 4.7em;
     font-size: 0.5em;
-    padding: 0.5% 2%;
+    padding: 0.5em 1em;
     color: white;
 }
 
@@ -98,12 +102,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 4em;
     background-color: rgb(255, 75, 109);
-    width: 12vw;
-    height: 5vh;
+    width: 18em;
+    height: 4.7em;
     font-size: 0.5em;
-    padding: 0.5% 2%;
+    padding: 0.5em 1em;
     color: white;
 }
 #downloadAndroid img {
@@ -114,10 +118,68 @@ nav {
 
 #mainImages{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 10vh;
 }
 
 #smartphone {
     width: 50vw;
+}
+
+#features {
+    display: flex;
+}
+
+.iconText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    
+    font-weight: 900;
+}
+
+.featuresImg {
+    margin: 5vh 5vw 1vh;
+}
+
+#img1 {
+    background-color: #E8E3F9;
+    border-radius: 50em;
+    width: 7vw;
+    padding: 5%;
+}
+
+#img2 {
+    background-color: #D5F2ED;
+    border-radius: 50em;
+    width: 7vw;
+    padding: 7%;
+}
+
+#img3 {
+    background-color: #F7E1E7;
+    border-radius: 50em;
+    width: 7vw;
+    padding: 8%;
+}
+
+#img4 {
+    background-color: #F7EFD9;
+    border-radius: 50em;
+    width: 7vw;
+    padding: 8%;
+}
+
+#img5 {
+    background-color: #DDF0F9;
+    border-radius: 50em;
+    width: 7vw;
+    padding: 6%;
+}
+
+.iconText p {
+    font-size:small;
 }
