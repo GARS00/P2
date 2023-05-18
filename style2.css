@@ -1,37 +1,43 @@
 #second {
     display: flex;
+    margin: 10% 0 10%;
+
+
 }
 
-#second img {
-    width: 40%;
-    margin: 0 5vw;
+
+#capture1 {
+    width: 50vw;
 }
 
 #description {
     width: 50%;
     list-style-position: inside;
+    padding: 1% 14% 1% 0;
 }
 
 #description h5 {
     font-size: xx-large;
-    padding: 1% 10% 1% 0;
-
-    
+    padding: 1% 10% 10% 0;
 }
 
-#description p {
-    padding: 1% 14% 1% 0;
+#pDescrip {
+    padding: 1% 10% 10% 0;
 }
 
-#lightbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#description ul li {
+    padding: 1% 2% 2% 0;
+}
+
+.lightbox {
     border-radius: 4em;
     background-color: rgb(255, 75, 109);
-    width: 18em;
-    height: 4.7em;
-    font-size: 0.5em;
-    padding: 0.5em 1em;
     color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 1%;
+    width: 30%;
+    font-size: 100%;
+    margin-top: 7%;
 }
+
